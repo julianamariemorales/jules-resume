@@ -35,6 +35,7 @@ const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const projController = require('./controllers/Projects');
+const aboutMeController = require('./controllers/aboutme');
 
 
 /**
@@ -119,6 +120,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  */
 app.get('/', homeController.index);
 app.get('/projects', projController.index);
+app.get('/aboutme', aboutMeController.index);
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);

@@ -1,12 +1,12 @@
 {
-  "name": "hackathon-starter",
+  "name": "jules-resume",
   "version": "4.3.0",
-  "description": "A boilerplate for Node.js web applications",
+  "description": "A personal resume web app featuring node js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/julianamariemorales/jules-resume.git"
   },
-  "author": "Sahat Yalkabov",
+  "author": "Juliana Marie Morales",
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
