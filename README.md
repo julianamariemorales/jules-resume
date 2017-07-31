@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/348a33b5e03b457fb4e32d4907988929)](https://www.codacy.com/app/julianamariemorales/jules-resume?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianamariemorales/jules-resume&amp;utm_campaign=Badge_Grade)
 # jules-resume
 node js app featuring express, passport, pug, mongoose 
 
